@@ -8,6 +8,5 @@ fibit(Old, New, Max, Sum) ->
     false -> fibit(New, Old+New, Max, Sum)
   end.
 
-mathit(Max) ->
-  fibit(1, 2, Max, 0).
+mathit(Max) -> fibit(1, 2, Max, 0).
 
